@@ -22,6 +22,15 @@ fun main(args : Array<String>){
                 println("Value is not match")
     }
 
-   
+    var i=25
+
+    when(i){
+
+        in 1..100 -> println("Answer is between 1 to 100")
+
+        in 2..266 -> println("Answer is between 2 to 266")
+
+        else -> println("Value is not match")
+    }
 
 }
